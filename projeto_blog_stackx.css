@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 1080px;
+    background-image: url('./imagens/old-steel-wall-background.jpg');
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    display: inline-block;
+    margin: auto 10px;
+    font-family: 'Anek Devanagari';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(193, 195, 197);
+}
+
+#ferrari {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(193, 195, 197);
+}
+
+#maseratti {
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(193, 195, 197);
+}
+
+#aston_martin {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(193, 195, 197);
+}
+
+#mercedez_benz {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(193, 195, 197);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(193, 195, 197);
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+main section {
+    display: inline-block;
+    width: 20%;
+    margin-left: 4%;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+#car_page {
+    width: 92%;
+}
+
+#car_page div {
+    width: 92%;
+    background-color: transparent;
+}
+
+#car_page div p {
+    margin-top: 50px;
+    margin-left: -200px;
+    font-size: 25px;
+}
+
+#car_page div p img {
+    float: inline-start;
+    margin-right: 20px;
+}
+
+main section a {
+    text-decoration: none;
+    color: black;
+}
+
+section figure {
+    width: 307.2px;
+    height: 286.4px;
+    position: relative;
+    margin: 10%;
+    margin-top: 30px;
+}
+
+section p {
+    padding: 0 10%;
+    text-align: justify;
+    font-family: 'Anek Devanagari';
+    color: rgb(193, 195, 197);
+}
+
+section div {
+    width: 100px;
+    height: 40px;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(193, 195, 197);
+    font-family: 'Anek Devanagari';
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view {
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+#counterFerrari,
+#counterMaseratti,
+#counterAstonMartin,
+#counterMercedezBenz {
+    background-color: transparent;
+    width: 40px;
+    margin-left: -10px;
+    color: rgb(193, 195, 197);
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: black;
+}
+
+footer div {
+    font-family: 'Anek Devanagari';
+    color: rgb(193, 195, 197);
+}
+
+footer div span {
+    margin: 7px;
+}

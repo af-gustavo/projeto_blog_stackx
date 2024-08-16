@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./imagens/logo_icon.png">
+    <title>METAL CAR STORE</title>
+    <script src="./view_counter.js"></script>
+    <link rel="stylesheet" href="./projeto_blog_stackx.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./página_inicial.html"><img src="./imagens/logo_icon.png" /></a>
+            <div><a href="./página_ferrari.html">Ferrari</a></div>
+            <div><a href="./página_maseratti.html">Maseratti</a></div>
+            <div><a href="./página_aston_martin.html">Aston Martin</a></div>
+            <div><a href="./página_mercedez_benz.html">Mercedez Benz</a></div>
+        </nav>
+    </header>
+    <main
+        style="background-image: url(https://www.freepik.com/photo-editor/api/download/f099be2a-04d7-493d-96fc-41f7cfd49378);">
+        <section>
+            <figure><img src="./imagens/ferrari-sf90-spider.jpg" alt="Carro1"></figure>
+            <p>Morbi non placerat turpis, fermentum condimentum ipsum. Pellentesque laoreet rutrum arcu, vitae egestas
+                felis commodo non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sed
+                tempor nulla. Suspendisse interdum, nibh non ultrices ornare, massa diam mattis sem, id venenatis dolor
+                tellus in nunc. Nunc pharetra mi quis volutpat vulputate. Ut imperdiet risus nec est posuere faucibus.
+            </p>
+            <div><a href="./página_ferrari.html" onclick="incrementCounterFerrari()">Descubra</a></div>
+            <img src="./imagens/eye_icon.png" class="view">
+            <div id='counterFerrari'>0</div>
+        </section>
+        <section>
+            <figure><img src="./imagens/maserati-mc20-cielo-dynamic-1-scaled-e1653660911257.jpg" alt="Carro2"></figure>
+            <p>Morbi non placerat turpis, fermentum condimentum ipsum. Pellentesque laoreet rutrum arcu, vitae egestas
+                felis commodo non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sed
+                tempor nulla. Suspendisse interdum, nibh non ultrices ornare, massa diam mattis sem, id venenatis dolor
+                tellus in nunc. Nunc pharetra mi quis volutpat vulputate. Ut imperdiet risus nec est posuere faucibus.
+            </p>
+            <div><a href="./página_maseratti.html" onclick="incrementCounterMaseratti()">Descubra</a></div>
+            <img src="./imagens/eye_icon.png" class="view">
+            <div id='counterMaseratti'>0</div>
+        </section>
+        <section>
+            <figure><img src="./imagens/aston-martin_dbs_2011_1_10022016_1024_1280_960.jpg" alt="Carro3"></figure>
+            <p>Morbi non placerat turpis, fermentum condimentum ipsum. Pellentesque laoreet rutrum arcu, vitae egestas
+                felis commodo non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sed
+                tempor nulla. Suspendisse interdum, nibh non ultrices ornare, massa diam mattis sem, id venenatis dolor
+                tellus in nunc. Nunc pharetra mi quis volutpat vulputate. Ut imperdiet risus nec est posuere faucibus.
+            </p>
+            <div><a href="./página_aston_martin.html" onclick="incrementCounterAstonMartin()">Descubra</a></div>
+            <img src="./imagens/eye_icon.png" class="view">
+            <div id='counterAstonMartin'>0</div>
+        </section>
+        <section>
+            <figure><img src="./imagens/31-mercedes-benz-classe-c.jpg" alt="Carro4"></figure>
+            <p>Morbi non placerat turpis, fermentum condimentum ipsum. Pellentesque laoreet rutrum arcu, vitae egestas
+                felis commodo non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus sed
+                tempor nulla. Suspendisse interdum, nibh non ultrices ornare, massa diam mattis sem, id venenatis dolor
+                tellus in nunc. Nunc pharetra mi quis volutpat vulputate. Ut imperdiet risus nec est posuere faucibus.
+            </p>
+            <div><a href="./página_mercedez_benz.html" onclick="incrementCounterMercedezBenz()">Descubra</a></div>
+            <img src="./imagens/eye_icon.png" class="view">
+            <div id='counterMercedezBenz'>0</div>
+        </section>
+    </main>
+    <footer>
+        <div><img src="./imagens/location_icon.png" alt=""><span style="font-weight: bold;">Endereço:</span> Rua
+            XXXXXXX, número XXX, bairro XXXXXX, XXXXXXX</div>
+        <div><img src="./imagens/telephone_icon.png" alt=""><span style="font-weight: bold;">Telefone:</span> +XX
+            (XX)XXXXXX-XXXX</div>
+        <div><img src="./imagens/clock_icon.png" alt=""><span style="font-weight: bold;">Horário de atendimento:</span>
+            XX:XX às XX:XX</div>
+        <dir><a href="https://www.instagram.com/" target="_blank"><img src="./imagens/instagram_icon.png" alt=""></a>
+        </dir>
+    </footer>
+</body>
+
+</html>
